@@ -1,0 +1,37 @@
+.fb-slide {
+	position: fixed;
+	display: flex;
+	height: 70px;
+	right: -310px;
+	top: 25%;
+	transition: right 1s;
+}
+
+.fb-slide:hover {
+	right: 0;
+	height: initial;
+}
+
+.fb-logo {
+	width: 45px;
+	height: 65px;
+	
+	color: #ffffff;
+	background-color: #3b5998;
+
+	font-size: 45px;
+
+	text-align: center;
+}
+
+.fb-logo:after {
+	content: "f";
+}
+
+.fb-container {
+	width: 300px;
+	height: 400px;
+
+	border: 5px solid #3b5998;
+}
+
